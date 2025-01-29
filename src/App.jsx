@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='w-full h-screen duration-200' style={{ backgroundColor: color }}>
+      <div className='w-sm h-screen duration-200' style={{ backgroundColor: color }}>
         <div className='fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2' >
           <div className='fixed flex flex-wrap justify-center gap-3 bg-white px-2 py-2 rounded-xl'>
             <button onClick={() => setColor("red")}
